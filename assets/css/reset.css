@@ -1,0 +1,232 @@
+#menu .pure-menu-heading {
+    background: transparent;
+}
+
+#menu .pure-menu-selected, aside {
+    background: #008000
+}
+
+aside.light-grey {
+    background: lightgray;
+    color:  darkgreen;
+}
+
+.header {
+    padding-bottom: 12px;
+    max-width: 100%;
+}
+.header h2, .header h4  {
+    color: #800080;
+}
+
+.header h3 {
+    color: #000;
+}
+
+a {
+    color: #008000
+}
+
+.content .content-subhead {
+    margin: 1em 0;
+    color: #333;
+}
+.content-subhead.label {
+    width: 10%;
+    color: #fff;
+    background: #191818;
+    max-width: 250px;
+    margin-left: 0;
+    margin-top: 20px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.05em;
+}
+
+aside {
+    border-radius: 0;
+}
+
+.pure-img-responsive {
+    border: 1px solid #ccc
+}
+.layout-item-module span {
+    color: rgb(75, 75, 75);
+    display: block;
+    line-height: 1.75;
+    padding: 0 0.5714em;
+    text-transform: capitalize;
+    border-left: 3px solid #006200;
+}
+
+/*
+    Lightbox CSS |
+*/
+
+#gallery-fc a,
+#gallery-st a,
+#gallery-shamt a,
+#gallery-4fl a{
+    text-decoration:none;
+}
+#gallery-fc,
+#gallery-st,
+#gallery-shamt,
+#gallery-4fl {
+    overflow: auto;
+    width: 400px;
+    height: 240px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    margin: 0 auto;
+}
+#gallery-fc .item,
+#gallery-st .item,
+#gallery-shamt .item,
+#gallery-4fl .item {
+    /* overflow: hidden; */
+    width: 400px;
+    height: 280px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+#gallery-fc .item a,
+#gallery-st .item a,
+#gallery-shamt .item a,
+#gallery-4fl .item a{
+    overflow: hidden;
+}
+
+#gallery-fc .item a img,
+#gallery-st .item a img,
+#gallery-shamt .item a img,
+#gallery-4fl .item a img {
+    height: 100%;
+    align-self: center;
+}
+
+.layout-item-screenshot.content.pure-u-1.u-sm-1-2.with-section {
+    text-align: center;
+}
+
+.lightbox {
+    /** Hide the lightbox */
+    display: none;
+    /** Apply basic lightbox styling */
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color:#333333;
+}
+
+.lightbox:target {
+    /** Show lightbox when it is target */
+    display: block;
+    outline: none;
+}
+
+.lightbox .box {
+    /* width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content; */
+    width: 90%;
+    margin: 4% auto;
+    padding:10px 20px 10px 20px;
+    background-color:#000;
+    box-shadow: 0px 1px 26px -3px #777777;
+}
+
+.lightbox .title {
+    margin:0;
+    padding:0 0 10px 0px;
+    color: #efefef;
+    border-bottom:0 #ccc solid;
+    font-size:0.9em;
+}
+
+.lightbox .content {
+    display:block;
+    position:relative;
+}
+
+.lightbox a.close {
+    text-align: right;
+    width: 90%;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.special-offer {
+    display: inline-block;
+    padding: 5px;
+    background: #800080;
+    border-radius: 17px;
+    width:35px;
+    text-align: center;
+    font-size: larger
+}
+
+#message.success {
+    padding-bottom: 7px;
+    border-bottom: 3px solid #efefef;
+}
+
+#message.failure {
+    color:#ff6600;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #ff6600;
+}
+
+.pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selected {
+    background-color: #800080;
+}
+
+#offline-fc h5,
+#offline-st h5,
+#offline-shamt h5,
+#offline-4fl h5{
+    margin: 0.4em 0;
+}
+
+#online-link {
+    color: #800080
+}
+.layout-item-head + p {
+    font-family: "myriad-pro", sans-serif;
+}
+
+#form-message {
+    color: lightgoldenrodyellow;
+}
+
+#sticker {
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    background: darkslategrey;
+    opacity: 0.75;
+    color: lightgoldenrodyellow;
+    position: fixed;
+    margin-left: 25px;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 100px;
+    font-size: smaller;
+    font-weight: bold
+}
+
+#sticker.trnstnd {
+    color: lightgoldenrodyellow;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
