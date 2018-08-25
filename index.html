@@ -9,526 +9,153 @@
 
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 
-    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="assets/css/basic.css">
     <link rel="stylesheet" href="assets/css/mgl.css">
-    <!--<![endif]-->
-    <link rel="shortcut icon" href="favicon.ico" />
-
     <link rel="stylesheet" href="assets/css/reset.css">
-
-    <style type="text/css">
-        #mk-wrapper-pages {
-            width:100px;
-            margin: 0 auto;
-            margin-top: 25%;
-            margin-bottom:30px;
-            text-align: center;
-        }
-
-        #m{
-            width: 0;
-            height: 0;
-            border: 15px solid #fff;
-            border-top: 15px solid transparent;
-            margin: 0;
-            margin-top: 2px;
-            margin-left: 15px;
-            padding: 0;
-        }
-
-        #k{
-            width: 0;
-            height: 0;
-            border: 15px solid #008000;
-            margin: 0;
-            margin-top: -30px;
-            margin-left: 45px;
-            padding: 0;
-            border-right: 15px solid transparent;
-        }
-
-        #mk-wrapper-pages-small-grey {
-            width: 30px;
-            margin: 1px auto;
-            text-align: center;
-            display: inline-block;
-            vertical-align: top;
-        }
-
-        #m-grey {
-            width: 0;
-            height: 0;
-            border: 8px solid #777;
-            border-top: 8px solid transparent;
-            margin: 0;
-            margin-top: 2px;
-            margin-left: 5px;
-            padding: 0;
-        }
-
-        #k-grey {
-            width: 0;
-            height: 0;
-            border: 8px solid #777;
-            margin: 0;
-            margin-top: -16px;
-            margin-left: 21px;
-            margin-right: 5px;
-            padding: 0;
-            border-right: 10px solid transparent;
-        }
-
-        #year {
-            display: inline-block;
-            margin-left: 7px;
-        }
-        /* content to top */
-        #arrowUp {
-            position: fixed;
-            height: auto;
-            width: auto;
-            right: 10px;
-            top: 10px;
-            font-size: 48px;
-        }
-        #arrowUp a {
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-            font-family: serif;
-        }
-    </style>
-
 </head>
 <body>
 
 <div id="layout">
 
-<div id="menu">
-    <div class="pure-menu pure-menu-open">
-        <a class="pure-menu-heading" href="/">
-            <div id="mk-wrapper-pages">
-                <div id="m"></div>
-                <div id="k"></div>
+    <div id="main">
+        <div id="mk-wrapper-pages">
+            <div id="m"></div>
+            <div id="k"></div>
+        </div>
+        <header class="header ">
+
+            <h2>Hello, my name is Michal Korybski.</h2>
+
+            <h4>Welcome to my little portfolio site and enjoy!</h4>
+        </header>
+
+    <aside>
+        <div class="content">
+        <h2 style="color: #fff; font-weight: 300" class="content-subhead">My specialties</h2>
+        <ol>
+            <li>Designing single-page sites that will work as a <i>Web business card</i> - first step for every company to mark their Web presence.</li>
+            <li>Adding and optimizing device-related responsiveness to existing websites and applications (so that the sites display consistently across most mobile Web browsers).</li>
+            <li>Developing custom lightweight blogs.</li>
+            <li>Custom theming and enriching Tumblr blogs.</li>
+            <li>Building custom rich media digital ads for online marketing campaigns.</li>
+        </ol>
+        </div>
+    </aside>
+
+        <div class="layout-item l-wrap pure-g">
+            <div class="layout-item-screenshot content pure-u-1 u-sm-1-2">
+                <a>
+                    <img src="assets/img/smilingeff.png" class="pure-img-responsive" width="400" height="220"
+                         alt="Screenshot of Blog example layout.">
+                </a>
             </div>
-        </a>
 
-        <ul class="pure-menu-list">
-
-            <li id="menu-about" class="menu-item-divided">
-                <a href="#about-tag">About</a>
-            </li>
-
-            <li id="menu-online" class="">
-                <a href="#online-tag">Online projects</a>
-            </li>
-
-            <li id="menu-offline" class="">
-                <a href="#offline-tag">Offline projects</a>
-            </li>
-
-            <li id="menu-hireme" class="menu-item-divided ">
-                <a href="#hireme-tag">Work with me</a>
-            </li>
-
-            <li class="menu-item-divided pure-menu-item pure-menu-disabled">
-                <a style="opacity: 0.3; cursor: auto; cursor: not-allowed">Blog</a>
-                <!-- <a href="blog/">Blog</a> -->
-            </li>
-
-        </ul>
-    </div>
-</div>
+            <div class="layout-item-content content pure-u-1 u-sm-1-2">
+                <h3 class="layout-item-head">Smiling Effect</h3>
+                <p>This is the re-activation of a project initiated by a friend. Of interesting facts, its layout was built closely to resemble that of <em>flickr.com</em></p>
 
 
-<div id="main">
-    <div class="header ">
+                <ul class="layout-item-modules pure-g">
 
-        <h2>Hello, my name is Michal Korybski.</h2>
+                    <li class="layout-item-module pure-u">
+                        <span>HTML</span>
+                    </li>
 
-        <h4>Welcome to my little portfolio site, enjoy!</h4>
+                    <li class="layout-item-module pure-u">
+                        <span>CSS</span>
+                    </li>
+                    <li class="layout-item-module pure-u">
+                        <span>JavaScript</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="layout-item l-wrap pure-g">
+            <div class="layout-item-screenshot content pure-u-1 u-sm-1-2">
+                <a>
+                    <img src="assets/img/hint4you.png" class="pure-img-responsive" width="400" height="263"
+                         alt="Screenshot of Blog example layout.">
+                </a>
+            </div>
+
+            <div class="layout-item-content content pure-u-1 u-sm-1-2">
+                <h3 class="layout-item-head">Hint4you</h3>
+                <p>Custom Tumblr theme for an off-stream life-commentary micro-blog. Feature to watch out for is the ordering of posts that allows to see the newest one at the top (default in Tumblr is the reverse).</p>
 
 
-    </div>
+                <ul class="layout-item-modules pure-g">
 
-<h2 class="content-subhead label" id="about-tag"><a id="about"></a></h2>
+                    <li class="layout-item-module pure-u">
+                        <span>HTML</span>
+                    </li>
 
-<div class="content">
-
-    <h2 class="content-subhead">Short introduction</h2>
-    <p>
-        I have been designing and developing for the Web since 2006.
-    </p>
-    <p>
-        Working with Web technologies had been a passion that turned into a profession for me.
-    </p>
-    <p>
-        Over the years I have been engaged in a number of projects.
-    </p>
-    <p>
-        Some of those projects are no longer available online but you can still take a peek at them <a id="offline-link" href="#offline-tag"><i>here</i></a>.
-    </p>
-</div>
-
-<aside>
-    <div class="content">
-    <h2 style="color: #fff; font-weight: 300" class="content-subhead">My specialties</h2>
-    <ol>
-        <li>Designing single-page sites that will work as a <i>Web business card</i> - first step for every company to mark their Web presence.</li>
-        <li>Adding and optimizing device-related responsiveness to existing websites and applications (so that the sites display consistently across most mobile Web browsers).</li>
-        <li>Developing custom lightweight blogs.</li>
-        <li>Custom theming and enriching Tumblr blogs.</li>
-        <li>Building custom rich media digital ads for online marketing campaigns.</li>
-    </ol>
-    </div>
-</aside>
-
-    <h2 class="content-subhead label"  id="online-tag"><a id="online"></a></h2>
+                    <li class="layout-item-module pure-u">
+                        <span>CSS</span>
+                    </li>
+                </ul>
+                <p>
+                    <a href="http://hint4you.tumblr.com" target="_blank" class="pure-button pure-button-primary">View live
+                    </a>
+                </p>
+            </div>
+        </div>
 
     <div class="layout-item l-wrap pure-g">
         <div class="layout-item-screenshot content pure-u-1 u-sm-1-2">
             <a>
-                <img src="assets/img/smilingeff.png" class="pure-img-responsive" width="400" height="220"
+                <img src="assets/img/fc_red_black_gold.png" class="pure-img-responsive" width="400" height="263"
                      alt="Screenshot of Blog example layout.">
             </a>
         </div>
 
         <div class="layout-item-content content pure-u-1 u-sm-1-2">
-            <h3 class="layout-item-head">Smiling Effect</small></h3>
-            <p>This is the re-activation of a project initiated by a friend. Of interesting facts, its layout was built closely to resemble that of <em>flickr.com</em></p>
-
-
+            <h3 class="layout-item-head">Flutterclub - <small>main landing page</small></h3>
+            <p>I have been continuously working with <em>flutterclub.com</em> betting platform on improving the stylistics of their main landing page. Page was custom-built.</p>
             <ul class="layout-item-modules pure-g">
 
                 <li class="layout-item-module pure-u">
                     <span>HTML</span>
                 </li>
-
                 <li class="layout-item-module pure-u">
                     <span>CSS</span>
                 </li>
-                <li class="layout-item-module pure-u">
-                    <span>JavaScript</span>
-                </li>
             </ul>
-            <p>
-                <a href="http://www.smilingeffect.com/" target="_blank" class="pure-button pure-button-primary">View live
-                </a>
-            </p>
         </div>
     </div>
 
     <div class="layout-item l-wrap pure-g">
         <div class="layout-item-screenshot content pure-u-1 u-sm-1-2">
             <a>
-                <img src="assets/img/hint4you.png" class="pure-img-responsive" width="400" height="263"
-                     alt="Screenshot of Blog example layout.">
+                <img src="assets/img/szg2.png" class="pure-img-responsive" width="400" height="214"
+                     alt="Screenshot of Email example layout.">
             </a>
         </div>
-
         <div class="layout-item-content content pure-u-1 u-sm-1-2">
-            <h3 class="layout-item-head">Hint4you</h3>
-            <p>Custom Tumblr theme for an off-stream life-commentary micro-blog. Feature to watch out for is the ordering of posts that allows to see the newest one at the top (default in Tumblr is the reverse).</p>
-
-
+            <h3 class="layout-item-head">Syzygy I.P.</h3>
+            <p>Requirements for this project involved developing an informational site with as crisp and minimalistic design as possible, not lossing the visual attractiveness, that would also be optimized for SEO (clean URLs and self-describing semantically marked up contnets). Site was been custom-built.</p>
             <ul class="layout-item-modules pure-g">
-
                 <li class="layout-item-module pure-u">
                     <span>HTML</span>
                 </li>
-
                 <li class="layout-item-module pure-u">
                     <span>CSS</span>
                 </li>
+                <li class="layout-item-module layout-item-module-buttons pure-u">
+                    <span>PHP</span>
+                </li>
+
             </ul>
-            <p>
-                <a href="http://hint4you.tumblr.com" target="_blank" class="pure-button pure-button-primary">View live
-                </a>
-            </p>
-        </div>
-    </div>
-    <h2 class="content-subhead label"  id="offline-tag"><a id="offline"></a></h2>
-
-<div class="layout-item l-wrap pure-g">
-    <div class="layout-item-screenshot content pure-u-1 u-sm-1-2">
-        <a>
-            <img src="assets/img/fc_red_black_gold.png" class="pure-img-responsive" width="400" height="263"
-                 alt="Screenshot of Blog example layout.">
-        </a>
-    </div>
-
-    <div class="layout-item-content content pure-u-1 u-sm-1-2">
-        <h3 class="layout-item-head">Flutterclub - <small>main landing page</small></h3>
-        <p>I have been continuously working with <em>flutterclub.com</em> betting platform on improving the stylistics of their main landing page. Page was custom-built.</p>
-
-
-        <ul class="layout-item-modules pure-g">
-
-            <li class="layout-item-module pure-u">
-                <span>HTML</span>
-            </li>
-
-            <li class="layout-item-module pure-u">
-                <span>CSS</span>
-            </li>
-        </ul>
-
-    </div>
-</div>
-
-<div class="layout-item l-wrap pure-g">
-    <div class="layout-item-screenshot content pure-u-1 u-sm-1-2">
-        <a>
-            <img src="assets/img/fc_affil_landing.png" class="pure-img-responsive" width="400" height="263"
-                 alt="Screenshot of Blog example layout.">
-        </a>
-    </div>
-
-    <div class="layout-item-content content pure-u-1 u-sm-1-2">
-        <h3 class="layout-item-head">Flutterclub - <small>affiliate landing page</small></h3>
-        <p>Most recent work for <em>flutterclub.com</em> involved creating a landing page for platform affiliates. Page was custom-built.</p>
-
-
-        <ul class="layout-item-modules pure-g">
-
-            <li class="layout-item-module pure-u">
-                <span>HTML</span>
-            </li>
-
-            <li class="layout-item-module pure-u">
-                <span>CSS</span>
-            </li>
-        </ul>
-
-    </div>
-</div>
-
-<div class="layout-item l-wrap pure-g">
-    <div class="layout-item-screenshot content pure-u-1 u-sm-1-2">
-        <a>
-            <img src="assets/img/fc_affil_terms.png" class="pure-img-responsive" width="400" height="263"
-                 alt="Screenshot of Blog example layout.">
-        </a>
-    </div>
-
-    <div class="layout-item-content content pure-u-1 u-sm-1-2">
-        <h3 class="layout-item-head">Flutterclub - <small>affiliate terms page</small></h3>
-        <p>Affiliate landing page for <em>flutterclub.com</em> (above) needed its own terms page.</p>
-
-
-        <ul class="layout-item-modules pure-g">
-
-            <li class="layout-item-module pure-u">
-                <span>HTML</span>
-            </li>
-
-            <li class="layout-item-module pure-u">
-                <span>CSS</span>
-            </li>
-            <li class="layout-item-module pure-u">
-                <span>Javascript</span>
-            </li>
-        </ul>
-
-    </div>
-</div>
-
-<div class="layout-item l-wrap pure-g">
-    <div class="layout-item-screenshot content pure-u-1 u-sm-1-2">
-        <a>
-            <img src="assets/img/szg2.png" class="pure-img-responsive" width="400" height="214"
-                 alt="Screenshot of Email example layout.">
-        </a>
-    </div>
-
-    <div class="layout-item-content content pure-u-1 u-sm-1-2">
-        <h3 class="layout-item-head">Syzygy I.P.</h3>
-        <p>Requirements for this project involved developing an informational site with as crisp and minimalistic design as possible, not lossing the visual attractiveness, that would also be optimized for SEO (clean URLs and self-describing semantically marked up contnets). Site was been custom-built.</p>
-
-
-        <ul class="layout-item-modules pure-g">
-
-            <li class="layout-item-module pure-u">
-                <span>HTML</span>
-            </li>
-
-            <li class="layout-item-module pure-u">
-                <span>CSS</span>
-            </li>
-
-            <li class="layout-item-module layout-item-module-buttons pure-u">
-                <span>PHP</span>
-            </li>
-
-
-        </ul>
-
-    </div>
-</div>
-
-
-
-<div id="offline-fc" class="layout-item l-wrap pure-g">
-
-    <div class="layout-item-screenshot content pure-u-1 u-sm-1-2 with-section">
-        <section id="gallery-fc">
-            <h5>Flutterclub - screen shot gallery</h5>
-            <!-- thumbnail image wrapped in a link -->
-                <div class="item">
-                    <a href="#img1">
-                        <img alt="Flutterclub - landing page image" src="assets/img/fc1.png" width="400" height="214">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#img2">
-                        <img alt="Flutterclub - groups' leaderboard image" src="assets/img/fc2.png" width="400" height="214">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#img3">
-                        <img alt="Flutterclub - Blackjack game image" src="assets/img/fc3.png" width="400" height="214">
-                    </a>
-                </div>
-
-        </section>
-
-        <!-- lightbox container hidden with CSS - individual images -->
-
-        <div class="lightbox" id="img1">
-            <div class="box">
-                <a class="close" href="#offline-fc">[-]</a>
-                <p class="title">Landing / Home page in previous version of <em>flutterclub.com</em></p>
-                <div class="content">
-                    <img src="assets/img/fc1.png" alt="Flutterclub - landing page" style="max-width: 800px">
-                </div>
-            </div>
-        </div>
-
-        <div class="lightbox" id="img2">
-            <div class="box">
-                <a class="close" href="#offline-fc">[-]</a>
-                <p class="title">User Groups Leaderboard widget for previous version of <em>flutterclub.com</em></p>
-                <div class="content">
-                    <img alt="Flutterclub - groups' leaderboard" src="assets/img/fc2.png" style="max-width: 800px">
-                </div>
-            </div>
-        </div>
-
-        <div class="lightbox" id="img3">
-            <div class="box">
-                <a class="close" href="#offline-fc">[-]</a>
-                <p class="title">Single player Blackjack game in previous version of <em>flutterclub.com</em></p>
-                <div class="content">
-                    <img alt="Flutterclub - Blackjack game" src="assets/img/fc3.png" style="max-width: 800px">
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="layout-item-content content pure-u-1 u-sm-1-2">
-        <h3 class="layout-item-head">Flutterclub</h3>
-        <p>In a continuous business affair with Social Gaming Ventures Ltd. I was asked to produce a number of widgets features and enhancements for <em>flutterclub.com</em> when it still was a fantasy sports betting site.</p>
-        <ul class="layout-item-modules pure-g">
-
-            <li class="layout-item-module pure-u">
-                <span>JavaScript</span>
-            </li>
-
-            <li class="layout-item-module pure-u">
-                <span>PHP</span>
-            </li>
-
-            <li class="layout-item-module pure-u">
-                <span>MySQL</span>
-            </li>
-        </ul>
-        <div>
-            <h5 style="margin: 0.5em 0;color: #800080"> More info </h5>
-            <small>Most prominent additions included: User Groups leaderboard (pictured), Facebook newsfeed imported onto the site and a single-player Blackjack game (pictured). </small>
-        </div>
-
-    </div>
-</div>
-
-<div id="offline-st" class="layout-item l-wrap pure-g">
-
-    <div class="layout-item-screenshot content pure-u-1 u-sm-1-2">
-        <section id="gallery-st">
-            <h5>Statclash - screen shot gallery</h5>
-            <!-- thumbnail image wrapped in a link -->
-            <div class="item">
-                <a href="#img4">
-                    <img src="assets/img/stclash1.png" alt="Statclash - landing page details" width="400" height="214">
-                </a>
-            </div>
-            <div class="item">
-                <a href="#img5">
-                    <img alt="Statclash - landing page details 2" src="assets/img/stclash2.png" width="400" height="214">
-                </a>
-            </div>
-        </section>
-
-        <!-- lightbox container hidden with CSS - individual images -->
-
-        <div class="lightbox" id="img4">
-            <div class="box">
-                <a class="close" href="#offline-st">[-]</a>
-                <p class="title">Landing page app for Statclash Europe - before to user interaction.</p>
-                <div class="content">
-                    <img alt="Statclash - landing page details" src="assets/img/stclash1.png" style="max-width: 800px">
-                </div>
-            </div>
-        </div>
-
-        <div class="lightbox" id="img5">
-            <div class="box">
-                <a class="close" href="#offline-st">[-]</a>
-                <p class="title">Landing page app for Statclash Europe - after to user interaction.</p>
-                <div class="content">
-                    <img alt="Statclash - landing page details 2" src="assets/img/stclash2.png" style="max-width: 800px">
-                </div>
-            </div>
         </div>
     </div>
 
-    <div class="layout-item-content content pure-u-1 u-sm-1-2">
-        <h3 class="layout-item-head">Statclash</h3>
-        <p>I developed Statclash Europe placeholder/landing page as small single-page app that utilized basic data collection for future contact from the site.</p>
-        <ul class="layout-item-modules pure-g">
-
-            <li class="layout-item-module layout-item-module-base pure-u">
-                <span>HTML</span>
-            </li>
-
-            <li class="layout-item-module layout-item-module-grids pure-u">
-                <span>CSS</span>
-            </li>
-
-            <li class="layout-item-module layout-item-module-menus pure-u">
-                <span>JavaScript</span>
-            </li>
-
-            <li class="layout-item-module layout-item-module-menus pure-u">
-                <span>PHP</span>
-            </li>
-            <li class="layout-item-module layout-item-module-menus pure-u">
-                <span>SQLite</span>
-            </li>
-        </ul>
-        <div>
-        <h5 style="margin: 0.5em 0;color: #800080"> More info </h5>
-        <small>I developed Statclash Europe placeholder/landing page as small single-page app that utilized basic data collection for future contact from the site. </small>
-        </div>
+    <footer class="footer" style="text-align: center">
+            &#169;<div id="mk-wrapper-pages-small-grey">
+            <div id="m-grey"></div>
+            <div id="k-grey"></div>
+        </div> <div id="year">2018</div>
+    </footer>
     </div>
-</div>
-    <div class="footer" style="text-align: center">
-        &#169;<div id="mk-wrapper-pages-small-grey">
-        <div id="m-grey"></div>
-        <div id="k-grey"></div>
-    </div> <div id="year">2016</div>
-    </div>
-</div>
 </div>
 
 </body>

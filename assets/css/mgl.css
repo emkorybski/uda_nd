@@ -1397,8 +1397,8 @@ a.pure-button-primary {
 }
 
 .layout-item {
-    margin-top: 2em;
-    padding-top: 2em;
+    margin-top: 1em;
+    padding-top: 0.5em;
     border-top: 1px solid #eee;
 }
 .layout-item-screenshot {
@@ -1501,7 +1501,7 @@ pre .support.value  {
 */
 
 body {
-    color: #777;
+    color: #2d3c49;
 }
 
 .pure-img-responsive {
@@ -1667,7 +1667,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     }
 
     #layout {
-        padding-left: 150px; /* left col width "#menu" */
+        padding-left: 0; /* left col width "#menu" */
         left: 0;
     }
     #menu {

@@ -3,7 +3,7 @@
 }
 
 #menu .pure-menu-selected, aside {
-    background: #008000
+    background: #02b3e4
 }
 
 aside.light-grey {
@@ -16,7 +16,7 @@ aside.light-grey {
     max-width: 100%;
 }
 .header h2, .header h4  {
-    color: #800080;
+    color: #2d3c49;
 }
 
 .header h3 {
@@ -56,7 +56,7 @@ aside {
     line-height: 1.75;
     padding: 0 0.5714em;
     text-transform: capitalize;
-    border-left: 3px solid #006200;
+    border-left: 3px solid #02b3e4;
 }
 
 /*
@@ -185,7 +185,7 @@ aside {
 }
 
 .pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selected {
-    background-color: #800080;
+    background-color: #7d97ad;
 }
 
 #offline-fc h5,
