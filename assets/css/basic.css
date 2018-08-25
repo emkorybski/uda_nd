@@ -1,0 +1,80 @@
+#mk-wrapper-pages {
+    width:100px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+#m{
+    width: 0;
+    height: 0;
+    border: 15px solid #02b3e4;
+    border-top: 15px solid transparent;
+    margin: 0;
+    margin-top: 2px;
+    margin-left: 15px;
+    padding: 0;
+}
+
+#k{
+    width: 0;
+    height: 0;
+    border: 15px solid #7d97ad;
+    margin: 0;
+    margin-top: -30px;
+    margin-left: 45px;
+    padding: 0;
+    border-right: 15px solid transparent;
+}
+
+#mk-wrapper-pages-small-grey {
+    width: 30px;
+    margin: 1px auto;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#m-grey {
+    width: 0;
+    height: 0;
+    border: 8px solid #777;
+    border-top: 8px solid transparent;
+    margin: 0;
+    margin-top: 2px;
+    margin-left: 5px;
+    padding: 0;
+}
+
+#k-grey {
+    width: 0;
+    height: 0;
+    border: 8px solid #777;
+    margin: 0;
+    margin-top: -16px;
+    margin-left: 21px;
+    margin-right: 5px;
+    padding: 0;
+    border-right: 10px solid transparent;
+}
+
+#year {
+    display: inline-block;
+    margin-left: 7px;
+}
+/* content to top */
+#arrowUp {
+    position: fixed;
+    height: auto;
+    width: auto;
+    right: 10px;
+    top: 10px;
+    font-size: 48px;
+}
+#arrowUp a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: serif;
+}
